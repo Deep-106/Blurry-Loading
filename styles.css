@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg{
+    height: 100%;
+    width: 100%;
+    
+    background: url('pexels-nejc-košir-338936.jpg') no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: blur(40px)
+}
+.text{
+    z-index: 2;
+    color: white;
+    font-size: 32px;
+}
